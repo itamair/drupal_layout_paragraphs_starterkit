@@ -49,7 +49,9 @@ The Layout Paragraphs Starterkit Drupal website should be reachable at the follo
 
     https://drupal-layout-paragraphs-starterkit.ddev.site
 
-Administrator Login Credentials:
+You should Login with Administrator Credentials:
 
       username: admin
       password: admin
+
+and then test Layout Paragraphs functionalities with the Home Basic Page content.
