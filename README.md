@@ -5,7 +5,11 @@ ___
 
 Clone this repository in your local env/machine
 
-    git clone ...
+    git clone https://github.com/itamair/drupal_layout_paragraphs_starterkit.git
+
+and move into the cloned repository folder:
+
+    cd drupal_layout_paragraphs_starterkit
 
 To run this Drupal instance locally it is advised to use DDEV.
 
@@ -37,9 +41,9 @@ Check the drush import of the Drupal configurations
 
     drush cim -y
 
-(there shouldn't any change to import).
+(there shouldn't any change to import, or only language.negotiation Update).
 
-so you will be All Set!
+then you will be All Set!
 
 The Layout Paragraphs Starterkit Drupal website should be reachable at the following link:
 
