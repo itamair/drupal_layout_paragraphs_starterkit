@@ -54,4 +54,4 @@ You should Login with Administrator Credentials:
       username: admin
       password: admin
 
-and then test Layout Paragraphs functionalities with the Home Basic Page content.
+and then test Layout Paragraphs functionalities directly from the Home Page Content.
