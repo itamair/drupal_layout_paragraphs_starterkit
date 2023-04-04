@@ -1,0 +1,10 @@
+uuid: edb56be2-283c-4c21-bd69-92dfd2f1965b
+langcode: it
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: bqZsN31T2n0UjcbyCpOPi9D2iO0sAOHR7FnEs9qMvaA
+id: comment
+label: 'Commenti predefiniti'
+target_entity_type_id: node
+description: 'Permette di commentare i contenuti'

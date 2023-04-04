@@ -1,0 +1,19 @@
+uuid: 0f14326d-b069-4e4d-bbc8-f75fce036fca
+langcode: it
+status: true
+dependencies:
+  module:
+    - layout_paragraphs
+id: layout
+label: Layout
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins:
+  layout_paragraphs:
+    enabled: true
+    available_layouts:
+      onecol: 'One column'
+      twocol: 'Two columns'
+      twocol_35_65: 'Two columns 35|65'
+      twocol_65_35: 'Two columns 65|35'

@@ -1,0 +1,13 @@
+uuid: 47dc2c90-f7eb-4d69-9405-f94650c7fd81
+langcode: en
+status: true
+dependencies:
+  enforced:
+    theme:
+      - mycustomtheme
+_core:
+  default_config_hash: MIg_VwK0aN_9iIDXEU0JOFrKJSUPhh9S1sn0OZgVaZY
+id: mycustomtheme_medium
+label: 'MyCustomTheme Medium'
+locked: false
+pattern: 'j  F,  Y'

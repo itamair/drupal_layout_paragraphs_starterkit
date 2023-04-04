@@ -1,0 +1,58 @@
+uuid: e019b05f-8d52-4b4b-adbd-00589fb92ffd
+langcode: it
+status: true
+dependencies:
+  config:
+    - block_content.type.layout_pargraphs_block
+    - field.storage.block_content.field_components
+    - paragraphs.paragraphs_type.image
+  module:
+    - entity_reference_revisions
+id: block_content.layout_pargraphs_block.field_components
+field_name: field_components
+entity_type: block_content
+bundle: layout_pargraphs_block
+label: Components
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      image: image
+    negate: 0
+    target_bundles_drag_drop:
+      date:
+        weight: 11
+        enabled: false
+      email:
+        weight: 12
+        enabled: false
+      file:
+        weight: 13
+        enabled: false
+      free_text:
+        weight: 14
+        enabled: false
+      image:
+        weight: 15
+        enabled: true
+      layout:
+        weight: 16
+        enabled: false
+      link:
+        weight: 17
+        enabled: false
+      telephone:
+        weight: 18
+        enabled: false
+      title:
+        weight: 19
+        enabled: false
+      view:
+        weight: 20
+        enabled: false
+field_type: entity_reference_revisions

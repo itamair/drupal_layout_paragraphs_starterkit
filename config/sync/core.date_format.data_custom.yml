@@ -1,0 +1,8 @@
+uuid: b44eac25-feea-4fc2-934e-26c34023aaa3
+langcode: it
+status: true
+dependencies: {  }
+id: data_custom
+label: 'Data Custom'
+locked: false
+pattern: d/m/Y

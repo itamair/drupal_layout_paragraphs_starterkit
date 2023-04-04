@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: it
+uuid: 1a402932-362f-4eaa-aa20-77134b118ad6
+name: 'Layout Paragraphs Starterkit'
+mail: info@italomairo.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /layout-paragraphs-test-page
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

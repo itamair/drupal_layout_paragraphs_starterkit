@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    theme:
+      - mycustomtheme
+id: mycustomtheme_medium
+label: 'MyCustomTheme Medium'
+locked: false
+pattern: 'j  F,  Y'

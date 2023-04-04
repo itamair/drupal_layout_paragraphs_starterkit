@@ -1,0 +1,25 @@
+uuid: b250eb42-f0d5-4dc5-a308-37152cc74db8
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.free_text.field_text
+    - paragraphs.paragraphs_type.free_text
+  module:
+    - text
+id: paragraph.free_text.default
+targetEntityType: paragraph
+bundle: free_text
+mode: default
+content:
+  field_text:
+    type: text_textarea
+    weight: 0
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

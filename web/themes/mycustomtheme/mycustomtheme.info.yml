@@ -1,0 +1,69 @@
+name: MyCustomTheme
+type: theme
+'base theme': false
+'alt text': 'Screenshot of MyCustomTheme, Drupal front-end theme.'
+version: 1.0.0
+libraries:
+  - mycustomtheme/global-styling
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  hero: 'Hero (full width)'
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  social: 'Social Bar'
+  content_above: 'Content Above'
+  content: Content
+  sidebar: Sidebar
+  content_below: 'Content Below'
+  footer_top: 'Footer Top'
+  footer_bottom: 'Footer Bottom'
+libraries-override:
+  system/admin:
+    css:
+      theme:
+        css/system.admin.css: false
+  system/base:
+    css:
+      component:
+        css/components/ajax-progress.module.css: css/components/ajax-progress.module.css
+        css/components/autocomplete-loading.module.css: css/components/autocomplete-loading.module.css
+  core/drupal.checkbox: false
+  core/drupal.dropbutton:
+    css:
+      component:
+        misc/dropbutton/dropbutton.css: css/components/dropbutton.css
+  core/drupal.vertical-tabs:
+    css:
+      component:
+        misc/vertical-tabs.css: css/components/vertical-tabs.css
+  media/oembed.formatter: false
+  layout_builder/twocol_section: mycustomtheme/layout_builder_twocol_section
+  layout_builder/threecol_section: mycustomtheme/layout_builder_threecol_section
+  layout_builder/fourcol_section: mycustomtheme/layout_builder_fourcol_section
+libraries-extend:
+  core/drupal.message:
+    - mycustomtheme/drupal.message
+  core/drupal.collapse:
+    - mycustomtheme/details
+  core/drupal.dialog:
+    - mycustomtheme/drupal.dialog
+  core/drupal.progress:
+    - mycustomtheme/progress
+  layout_discovery/onecol:
+    - mycustomtheme/layout_discovery_section
+  layout_discovery/twocol_bricks:
+    - mycustomtheme/layout_discovery_section
+  layout_discovery/twocol:
+    - mycustomtheme/layout_discovery_section
+  layout_discovery/threecol_25_50_25:
+    - mycustomtheme/layout_discovery_section
+  layout_discovery/threecol_33_34_33:
+    - mycustomtheme/layout_discovery_section
+  node/drupal.node.preview:
+    - mycustomtheme/drupal.node.preview
+  content_moderation/content_moderation:
+    - mycustomtheme/content_moderation
+core_version_requirement: ^10
+generator: 'mycustomtheme:10.0.4'

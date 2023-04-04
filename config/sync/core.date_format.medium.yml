@@ -1,0 +1,10 @@
+uuid: a60df479-38ee-4f41-8588-14647cc0bdcd
+langcode: it
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: nzL5d024NjXIX_8TlT6uFAu973lmfkmHklJC-2i9rAE
+id: medium
+label: 'Formato predefinito data media'
+locked: false
+pattern: 'D, m/d/Y - H:i'

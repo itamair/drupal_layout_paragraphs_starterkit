@@ -1,0 +1,27 @@
+uuid: 8e5b746a-cfdb-4f59-a5c8-2c5ab9829823
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - mycustomtheme
+_core:
+  default_config_hash: oqY6kxjjJuNEAw92IUEiG3xyqM0NAnRzJEBEUD87tfU
+id: mycustomtheme_account_menu
+theme: mycustomtheme
+region: secondary_menu
+weight: -4
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

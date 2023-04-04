@@ -1,0 +1,83 @@
+uuid: c2531d71-4f97-4be7-b8c6-30b993086a9b
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_components
+    - node.type.page
+    - paragraphs.paragraphs_type.email
+    - paragraphs.paragraphs_type.file
+    - paragraphs.paragraphs_type.free_text
+    - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.layout
+    - paragraphs.paragraphs_type.link
+    - paragraphs.paragraphs_type.title_h1
+    - paragraphs.paragraphs_type.title_h2
+    - paragraphs.paragraphs_type.view
+  module:
+    - entity_reference_revisions
+id: node.page.field_components
+field_name: field_components
+entity_type: node
+bundle: page
+label: Components
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      email: email
+      free_text: free_text
+      image: image
+      file: file
+      layout: layout
+      link: link
+      view: view
+      title_h1: title_h1
+      title_h2: title_h2
+    negate: 0
+    target_bundles_drag_drop:
+      content_reference:
+        weight: 13
+        enabled: true
+      date:
+        weight: 8
+        enabled: true
+      email:
+        weight: 9
+        enabled: true
+      file:
+        weight: 12
+        enabled: true
+      free_text:
+        weight: 10
+        enabled: true
+      image:
+        weight: 11
+        enabled: true
+      layout:
+        weight: 12
+        enabled: true
+      link:
+        weight: 13
+        enabled: true
+      telephone:
+        weight: 20
+        enabled: true
+      title:
+        weight: 14
+        enabled: true
+      title_h1:
+        weight: 24
+        enabled: true
+      title_h2:
+        weight: 25
+        enabled: true
+      view:
+        weight: 18
+        enabled: true
+field_type: entity_reference_revisions

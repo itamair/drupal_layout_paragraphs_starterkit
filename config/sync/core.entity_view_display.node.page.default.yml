@@ -1,0 +1,44 @@
+uuid: 661e4c84-442a-4af8-ad00-0e2e2a9e764d
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.node.page.field_components
+    - node.type.page
+  module:
+    - layout_builder
+    - layout_discovery
+    - layout_paragraphs
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+_core:
+  default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  field_components:
+    type: layout_paragraphs_builder
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+      preview_view_mode: default
+      nesting_depth: 0
+      require_layouts: 0
+      empty_message: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  langcode: true
+  layout_builder__layout: true

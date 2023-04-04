@@ -1,0 +1,21 @@
+uuid: a9eb627b-e626-40af-8166-65daae33db27
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.title_h2.field_title_h2
+    - paragraphs.paragraphs_type.title_h2
+id: paragraph.title_h2.default
+targetEntityType: paragraph
+bundle: title_h2
+mode: default
+content:
+  field_title_h2:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

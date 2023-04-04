@@ -1,0 +1,10 @@
+uuid: a7d2152c-04f4-49a7-9393-c1410571f9bc
+langcode: it
+status: true
+dependencies: {  }
+id: title_h2
+label: 'H2 Title'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,10 @@
+uuid: 038443ce-76e8-41cc-90df-83f28e5f9e1c
+langcode: it
+status: true
+dependencies: {  }
+id: file
+label: File
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

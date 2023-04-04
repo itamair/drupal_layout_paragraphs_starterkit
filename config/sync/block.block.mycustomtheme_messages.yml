@@ -1,0 +1,22 @@
+uuid: bb94218e-0dca-401f-9113-a53da4076394
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mycustomtheme
+_core:
+  default_config_hash: iO-BTelCOMGap9fb-bdfqv6sp6ibOFhGXWcURJy4K_Y
+id: mycustomtheme_messages
+theme: mycustomtheme
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

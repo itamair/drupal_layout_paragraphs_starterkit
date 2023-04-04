@@ -1,0 +1,47 @@
+.views-ui-display-tab-setting.overridden,
+.views-ui-display-tab-bucket.overridden {
+  font-style: italic;
+  color: red !important;
+  font-weight: bold;
+}
+
+//Layout Paragraphs Theming
+
+.layout {
+  .layout__region {
+    padding: 0 20px;
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .paragraph {
+      padding: 10px 0;
+    }
+  }
+}
+
+.layout,
+.block-page-title-block {
+  &.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+//
+
+.views-row .node--view-mode-teaser .field__item .node__content {
+  padding-block-end: unset;
+}
+
+.layout--threecol-section > .layout__region {
+  margin-block-end: unset !important;
+}
+
+.node--view-mode-teaser:after {
+  border-top: none !important;
+}

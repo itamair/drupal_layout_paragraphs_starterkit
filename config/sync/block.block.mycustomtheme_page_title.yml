@@ -1,0 +1,20 @@
+uuid: fd9ea3fd-f97a-4562-b373-744430c42ca6
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mycustomtheme
+_core:
+  default_config_hash: pR6J-ieUxb8UfvEbqL4JzM806dZcDvIcaD0Mz3nIt1Q
+id: mycustomtheme_page_title
+theme: mycustomtheme
+region: content_above
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,5 @@
+name: Custom Default Content
+type: module
+description: Provides default content for Layout Paragraphs Starter Kit
+package: Custom
+core_version_requirement: ^9 || ^10
