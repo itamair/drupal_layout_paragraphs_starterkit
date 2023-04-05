@@ -692,3 +692,17 @@ function _mycustomtheme_hex_to_hsl(string $hex_string) {
 
   return [$h, $s, $l];
 }
+
+/**
+ * Implements hook_preprocess_paragraph().
+ */
+function mycustomtheme_preprocess_paragraph(&$variables) {
+  /** @var \Drupal\paragraphs\Entity\Paragraph $paragraph */
+  $paragraph = $variables['elements']['#paragraph'];
+  $type = $paragraph->getParagraphType();
+
+  if ($type->hasEnabledBehaviorPlugin('title')) {
+    // Default to h1.
+    $variables['title_behavior'] = $variables['elements']['#title_behavior'] ?? 'h1';
+  }
+}
