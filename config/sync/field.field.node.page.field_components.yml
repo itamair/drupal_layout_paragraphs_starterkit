@@ -11,8 +11,7 @@ dependencies:
     - paragraphs.paragraphs_type.image
     - paragraphs.paragraphs_type.layout
     - paragraphs.paragraphs_type.link
-    - paragraphs.paragraphs_type.title_h1
-    - paragraphs.paragraphs_type.title_h2
+    - paragraphs.paragraphs_type.title
     - paragraphs.paragraphs_type.view
   module:
     - entity_reference_revisions
@@ -36,17 +35,10 @@ settings:
       file: file
       layout: layout
       link: link
+      title: title
       view: view
-      title_h1: title_h1
-      title_h2: title_h2
     negate: 0
     target_bundles_drag_drop:
-      content_reference:
-        weight: 13
-        enabled: true
-      date:
-        weight: 8
-        enabled: true
       email:
         weight: 9
         enabled: true
@@ -65,17 +57,8 @@ settings:
       link:
         weight: 13
         enabled: true
-      telephone:
-        weight: 20
-        enabled: true
       title:
         weight: 14
-        enabled: true
-      title_h1:
-        weight: 24
-        enabled: true
-      title_h2:
-        weight: 25
         enabled: true
       view:
         weight: 18

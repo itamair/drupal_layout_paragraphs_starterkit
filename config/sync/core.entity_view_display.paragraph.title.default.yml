@@ -1,16 +1,16 @@
-uuid: a9eb627b-e626-40af-8166-65daae33db27
-langcode: it
+uuid: f09a4f8e-9dad-4f7e-981f-99a9cf70aeb5
+langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.title_h2.field_title_h2
-    - paragraphs.paragraphs_type.title_h2
-id: paragraph.title_h2.default
+    - field.field.paragraph.title.field_title
+    - paragraphs.paragraphs_type.title
+id: paragraph.title.default
 targetEntityType: paragraph
-bundle: title_h2
+bundle: title
 mode: default
 content:
-  field_title_h2:
+  field_title:
     type: string
     label: hidden
     settings:

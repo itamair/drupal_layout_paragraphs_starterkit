@@ -1,0 +1,14 @@
+uuid: e84717eb-569c-428e-b3e8-6cd05e658b6e
+langcode: en
+status: true
+dependencies:
+  module:
+    - custom_layouts
+id: title
+label: Title
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins:
+  title:
+    enabled: true

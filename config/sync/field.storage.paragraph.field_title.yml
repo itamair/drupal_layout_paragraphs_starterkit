@@ -1,11 +1,11 @@
-uuid: 3eed73a0-cc07-48a3-ab58-183d3a692a2d
-langcode: it
+uuid: 5713b0a8-1076-4fd9-8c8e-7bc7f5840719
+langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
-id: paragraph.field_title_h1
-field_name: field_title_h1
+id: paragraph.field_title
+field_name: field_title
 entity_type: paragraph
 type: string
 settings:
