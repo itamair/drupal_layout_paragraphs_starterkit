@@ -11,6 +11,7 @@ dependencies:
     - paragraphs.paragraphs_type.image
     - paragraphs.paragraphs_type.layout
     - paragraphs.paragraphs_type.link
+    - paragraphs.paragraphs_type.simple_paragraph
     - paragraphs.paragraphs_type.title
     - paragraphs.paragraphs_type.view
   module:
@@ -36,6 +37,7 @@ settings:
       layout: layout
       link: link
       title: title
+      simple_paragraph: simple_paragraph
       view: view
     negate: 0
     target_bundles_drag_drop:
@@ -56,6 +58,9 @@ settings:
         enabled: true
       link:
         weight: 13
+        enabled: true
+      simple_paragraph:
+        weight: 16
         enabled: true
       title:
         weight: 14
